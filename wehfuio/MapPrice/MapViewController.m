@@ -31,6 +31,9 @@
     
     _mapView = [[MKMapView alloc] initWithFrame:self.view.bounds];
     _mapView.showsUserLocation = YES;
+    
+    _mapView.delegate = self;
+    
     [self.view addSubview:_mapView];
     
     [[DataManager sharedInstance] loadData];
@@ -79,7 +82,16 @@
 }
 
 
-
-
+- (void)mapView:(MKMapView *)mapView didSelectAnnotationView:(MKAnnotationView *)view{
+ 
+    for (MapPrice* mapPrice in _prices) {
+        if (mapPrice.destination.coordinate.latitude == view.annotation.coordinate.latitude &&
+            mapPrice.destination.coordinate.longitude == view.annotation.coordinate.longitude) {
+            
+            [CoreDataHelper.sharedInstance addMapPriceToFavorite:mapPrice];
+            break;
+        }
+    }
+    }
 
 @end

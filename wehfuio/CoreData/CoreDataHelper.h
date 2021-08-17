@@ -10,6 +10,8 @@
 #import "DataManager.h"
 //#import 
 #import "Ticket.h"
+#import "MapPrice.h"
+#import "FavoritSection.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -21,6 +23,9 @@ NS_ASSUME_NONNULL_BEGIN
 - (NSArray *)favorites;
 - (void)addToFavorite:(Ticket *)ticket;
 - (void)removeFromFavorite:(Ticket *)ticket;
+- (void)addMapPriceToFavorite:(MapPrice *)mapPrice;
+- (NSArray*)getAllMapPrices;
+- (NSArray*)getAllSection;
 
 @end
 

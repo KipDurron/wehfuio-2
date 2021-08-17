@@ -7,7 +7,7 @@
 
 #import "TicketTableViewCell.h"
 #import "Ticket.h"
-#import "FavoriteTicket+CoreDataClass.h"
+#import "wehfuio-Swift.h"
 
 @interface TicketTableViewCell()
 @property (nonatomic, strong) UIImageView *airlineLogoView;
@@ -71,8 +71,6 @@
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
     dateFormatter.dateFormat = @"dd MMMM yyyy hh:mm";
     _dateLabel.text = [dateFormatter stringFromDate:ticket.departure];
-//    NSURL *urlLogo = AirlineLogo(ticket.airline);
-//    [_airlineLogoView yy_setImageWithURL:urlLogo options:YYWebImageOptionSetImageWithFadeAnimation];
 }
 
 - (void)setFavoriteTicket:(FavoriteTicket *)favoriteTicket {
@@ -88,7 +86,44 @@
 //    [_airlineLogoView yy_setImageWithURL:urlLogo options:YYWebImageOptionSetImageWithFadeAnimation];
 }
 
+-(void)setMapPrice:(MapPriceCD *)mapPrice {
+    _mapPrice = mapPrice;
+    
+    _priceLabel.text = [NSString stringWithFormat:@"%ld руб.", (long)mapPrice.value];
+    _placesLabel.text = [NSString stringWithFormat:@"%@ - %@", mapPrice.origin.code, mapPrice.destination.code];
+    
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+    dateFormatter.dateFormat = @"dd MMMM yyyy hh:mm";
+    _dateLabel.text = [dateFormatter stringFromDate:mapPrice.departure];
+}
 
 
+-(void)startAnnimation: (NSInteger) indexPathRow {
+    self.alpha = 0;
+    
+    [UIView animateWithDuration:5.0
+                          delay:0.05 * indexPathRow
+                        options:UIViewAnimationOptionCurveEaseOut
+                     animations:^{
+                        self.alpha = 1;
+                     } completion:nil];
+    
+    [UIView animateWithDuration:5.0
+                          delay:0.0
+                        options:UIViewAnimationOptionCurveEaseIn
+                     animations:^{
+        self.contentView.backgroundColor = [UIColor orangeColor];
+                     } completion:^(BOOL finished) {
+                         
+                         [UIView animateWithDuration:1.0
+                                               delay:1.0
+                                             options:UIViewAnimationOptionCurveEaseOut
+                                          animations:^{
+                             self.contentView.backgroundColor = [UIColor yellowColor];
+                                          } completion:nil];
+                         
+                     }];
+
+}
 
 @end
