@@ -5,3 +5,8 @@
   Created by Илья Кадыров on 10.06.2021.
   
 */
+"tickets" = "Билеты";
+"favorits" = "Избранное";
+"search" = "Поиск";
+"mapPrice" = "Карта цен";
+"where" = "Куда";

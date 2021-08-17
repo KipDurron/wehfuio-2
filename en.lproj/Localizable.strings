@@ -5,3 +5,9 @@
   Created by Илья Кадыров on 10.06.2021.
   
 */
+
+"tickets" = "Tickets";
+"favorits" = "Favorits";
+"search" = "Search";
+"mapPrice" = "Map Price";
+"where" = "Where to";

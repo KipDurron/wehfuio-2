@@ -102,27 +102,36 @@
     self.alpha = 0;
     
     [UIView animateWithDuration:5.0
-                          delay:0.05 * indexPathRow
+                          delay:1 * indexPathRow
                         options:UIViewAnimationOptionCurveEaseOut
                      animations:^{
                         self.alpha = 1;
-                     } completion:nil];
-    
-    [UIView animateWithDuration:5.0
-                          delay:0.0
-                        options:UIViewAnimationOptionCurveEaseIn
-                     animations:^{
-        self.contentView.backgroundColor = [UIColor orangeColor];
-                     } completion:^(BOOL finished) {
-                         
+                     } completion:^(BOOL finished){
                          [UIView animateWithDuration:1.0
                                                delay:1.0
-                                             options:UIViewAnimationOptionCurveEaseOut
+                                             options:UIViewAnimationOptionCurveEaseIn
                                           animations:^{
-                             self.contentView.backgroundColor = [UIColor yellowColor];
-                                          } completion:nil];
-                         
+                             self.contentView.backgroundColor = [UIColor orangeColor];
+                                          } completion:^(BOOL finished) {
+                                              
+                                              [UIView animateWithDuration:1.0
+                                                                    delay:1.0
+                                                                  options:UIViewAnimationOptionCurveEaseOut
+                                                               animations:^{
+                                                  self.contentView.backgroundColor = [UIColor blueColor];
+                                              } completion:^(BOOL finished) {
+                                                  [UIView animateWithDuration:1.0
+                                                                        delay:1.0
+                                                                      options:UIViewAnimationOptionCurveEaseOut
+                                                                   animations:^{
+                                                      self.contentView.backgroundColor = [UIColor yellowColor];
+                                                                   } completion:nil];
+                                              }];
+                                              
+                                          }];
                      }];
+    
+
 
 }
 

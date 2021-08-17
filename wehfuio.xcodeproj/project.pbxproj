@@ -27,11 +27,17 @@
 		8F8F965B25B0B91E0060320E /* LocationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8F965A25B0B91E0060320E /* LocationService.m */; };
 		8F8F965F25B0BBB00060320E /* MapPrice.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8F965E25B0BBAF0060320E /* MapPrice.m */; };
 		8F8F966325B0BD4A0060320E /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8F966225B0BD4A0060320E /* MapViewController.m */; };
+		8FAD01DD25BEA5810022A675 /* FavoriteTicket+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAD01DB25BEA5810022A675 /* FavoriteTicket+CoreDataClass.swift */; };
+		8FAD01DE25BEA5810022A675 /* FavoriteTicket+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAD01DC25BEA5810022A675 /* FavoriteTicket+CoreDataProperties.swift */; };
 		8FBAC4F825947DAC0024E951 /* PlaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBAC4F725947DAC0024E951 /* PlaceViewController.m */; };
-		8FE8701225BE64D600499ED3 /* FavoriteTicket+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE8701025BE64D600499ED3 /* FavoriteTicket+CoreDataClass.m */; };
 		8FE8701825BE6B1800499ED3 /* cities.json in Resources */ = {isa = PBXBuildFile; fileRef = 8FE8701525BE6B1800499ED3 /* cities.json */; };
 		8FE8701925BE6B1800499ED3 /* airports.json in Resources */ = {isa = PBXBuildFile; fileRef = 8FE8701625BE6B1800499ED3 /* airports.json */; };
 		8FE8701A25BE6B1800499ED3 /* countries.json in Resources */ = {isa = PBXBuildFile; fileRef = 8FE8701725BE6B1800499ED3 /* countries.json */; };
+		EC36338526723ABD00457C24 /* NotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = EC36338426723ABD00457C24 /* NotificationCenter.m */; };
+		EC3633902672929800457C24 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC3633922672929800457C24 /* Localizable.strings */; };
+		EC97F5492668BAE50000B5F2 /* FavoritSection.m in Sources */ = {isa = PBXBuildFile; fileRef = EC97F5482668BAE50000B5F2 /* FavoritSection.m */; };
+		ECAAB8BF2667C8F400928478 /* MapPriceCD+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAAB8BD2667C8F400928478 /* MapPriceCD+CoreDataClass.swift */; };
+		ECAAB8C02667C8F400928478 /* MapPriceCD+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAAB8BE2667C8F400928478 /* MapPriceCD+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,13 +80,22 @@
 		8F8F965E25B0BBAF0060320E /* MapPrice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapPrice.m; sourceTree = "<group>"; };
 		8F8F966125B0BD4A0060320E /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		8F8F966225B0BD4A0060320E /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		8FAD01DB25BEA5810022A675 /* FavoriteTicket+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FavoriteTicket+CoreDataClass.swift"; sourceTree = "<group>"; };
+		8FAD01DC25BEA5810022A675 /* FavoriteTicket+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FavoriteTicket+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		8FBAC4F625947DAC0024E951 /* PlaceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlaceViewController.h; sourceTree = "<group>"; };
 		8FBAC4F725947DAC0024E951 /* PlaceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaceViewController.m; sourceTree = "<group>"; };
-		8FE8701025BE64D600499ED3 /* FavoriteTicket+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FavoriteTicket+CoreDataClass.m"; sourceTree = "<group>"; };
-		8FE8701125BE64D600499ED3 /* FavoriteTicket+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FavoriteTicket+CoreDataClass.h"; sourceTree = "<group>"; };
 		8FE8701525BE6B1800499ED3 /* cities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cities.json; sourceTree = "<group>"; };
 		8FE8701625BE6B1800499ED3 /* airports.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = airports.json; sourceTree = "<group>"; };
 		8FE8701725BE6B1800499ED3 /* countries.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = countries.json; sourceTree = "<group>"; };
+		EC36338326723ABD00457C24 /* NotificationCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationCenter.h; sourceTree = "<group>"; };
+		EC36338426723ABD00457C24 /* NotificationCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationCenter.m; sourceTree = "<group>"; };
+		EC3633912672929800457C24 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EC3633932672938E00457C24 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		EC3633942672938E00457C24 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EC97F5472668BAE50000B5F2 /* FavoritSection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FavoritSection.h; sourceTree = "<group>"; };
+		EC97F5482668BAE50000B5F2 /* FavoritSection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FavoritSection.m; sourceTree = "<group>"; };
+		ECAAB8BD2667C8F400928478 /* MapPriceCD+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MapPriceCD+CoreDataClass.swift"; sourceTree = "<group>"; };
+		ECAAB8BE2667C8F400928478 /* MapPriceCD+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MapPriceCD+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +112,7 @@
 		8F10CFE0259104E300764D51 = {
 			isa = PBXGroup;
 			children = (
+				EC3633922672929800457C24 /* Localizable.strings */,
 				8F89F43925BDE74700FB89FC /* wehfuio-Bridging-Header.h */,
 				8F10CFEB259104E300764D51 /* wehfuio */,
 				8F10CFEA259104E300764D51 /* Products */,
@@ -114,32 +130,23 @@
 		8F10CFEB259104E300764D51 /* wehfuio */ = {
 			isa = PBXGroup;
 			children = (
-				8FE8701625BE6B1800499ED3 /* airports.json */,
-				8FE8701525BE6B1800499ED3 /* cities.json */,
-				8FE8701725BE6B1800499ED3 /* countries.json */,
-				8F89F44025BDE79100FB89FC /* CoreDataHelper.h */,
-				8F89F44125BDE79100FB89FC /* CoreDataHelper.m */,
+				EC36338226723AAA00457C24 /* Notification */,
+				EC97F5462668BACF0000B5F2 /* Favorite */,
+				EC97F5452668BAAB0000B5F2 /* TIckets */,
+				ECF289142667C3C700BB16E3 /* CoreData */,
+				ECF289152667C48C00BB16E3 /* MapPrice */,
+				8F227C7F25BEA5AD0024100D /* JSON */,
 				8F10CFEC259104E300764D51 /* AppDelegate.h */,
 				8F10CFED259104E300764D51 /* AppDelegate.m */,
-				8FE8701125BE64D600499ED3 /* FavoriteTicket+CoreDataClass.h */,
-				8FE8701025BE64D600499ED3 /* FavoriteTicket+CoreDataClass.m */,
 				8F10CFEF259104E300764D51 /* SceneDelegate.h */,
 				8F10CFF0259104E300764D51 /* SceneDelegate.m */,
 				8F8F965925B0B91E0060320E /* LocationService.h */,
 				8F8F965A25B0B91E0060320E /* LocationService.m */,
-				8F8F965D25B0BBAF0060320E /* MapPrice.h */,
-				8F8F965E25B0BBAF0060320E /* MapPrice.m */,
 				8F10CFF2259104E300764D51 /* FirstViewController.h */,
 				8F10CFF3259104E300764D51 /* FirstViewController.m */,
-				8F89F3DD25BDCBBE00FB89FC /* TicketsViewController.h */,
-				8F89F3DE25BDCBBE00FB89FC /* TicketsViewController.m */,
-				8F89F3DA25BDCB8C00FB89FC /* TicketTableViewCell.h */,
-				8F89F3D925BDCB8C00FB89FC /* TicketTableViewCell.m */,
 				8F89F43525BDE62400FB89FC /* Model.xcdatamodeld */,
 				8FBAC4F625947DAC0024E951 /* PlaceViewController.h */,
 				8FBAC4F725947DAC0024E951 /* PlaceViewController.m */,
-				8F8F966125B0BD4A0060320E /* MapViewController.h */,
-				8F8F966225B0BD4A0060320E /* MapViewController.m */,
 				8F14A490259A2F64006F3371 /* APIManager.h */,
 				8F14A491259A2F64006F3371 /* APIManager.m */,
 				8F5FC69125B5CE47003F6BD2 /* TabBarController.h */,
@@ -160,6 +167,69 @@
 				8F20303525911D6D00CA205B /* DataManager.m */,
 			);
 			path = wehfuio;
+			sourceTree = "<group>";
+		};
+		8F227C7F25BEA5AD0024100D /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				8FE8701625BE6B1800499ED3 /* airports.json */,
+				8FE8701525BE6B1800499ED3 /* cities.json */,
+				8FE8701725BE6B1800499ED3 /* countries.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		EC36338226723AAA00457C24 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				EC36338326723ABD00457C24 /* NotificationCenter.h */,
+				EC36338426723ABD00457C24 /* NotificationCenter.m */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		EC97F5452668BAAB0000B5F2 /* TIckets */ = {
+			isa = PBXGroup;
+			children = (
+				8F89F3DD25BDCBBE00FB89FC /* TicketsViewController.h */,
+				8F89F3DE25BDCBBE00FB89FC /* TicketsViewController.m */,
+				8F89F3DA25BDCB8C00FB89FC /* TicketTableViewCell.h */,
+				8F89F3D925BDCB8C00FB89FC /* TicketTableViewCell.m */,
+			);
+			path = TIckets;
+			sourceTree = "<group>";
+		};
+		EC97F5462668BACF0000B5F2 /* Favorite */ = {
+			isa = PBXGroup;
+			children = (
+				EC97F5472668BAE50000B5F2 /* FavoritSection.h */,
+				EC97F5482668BAE50000B5F2 /* FavoritSection.m */,
+			);
+			path = Favorite;
+			sourceTree = "<group>";
+		};
+		ECF289142667C3C700BB16E3 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				ECAAB8BD2667C8F400928478 /* MapPriceCD+CoreDataClass.swift */,
+				ECAAB8BE2667C8F400928478 /* MapPriceCD+CoreDataProperties.swift */,
+				8F89F44025BDE79100FB89FC /* CoreDataHelper.h */,
+				8F89F44125BDE79100FB89FC /* CoreDataHelper.m */,
+				8FAD01DB25BEA5810022A675 /* FavoriteTicket+CoreDataClass.swift */,
+				8FAD01DC25BEA5810022A675 /* FavoriteTicket+CoreDataProperties.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		ECF289152667C48C00BB16E3 /* MapPrice */ = {
+			isa = PBXGroup;
+			children = (
+				8F8F966125B0BD4A0060320E /* MapViewController.h */,
+				8F8F966225B0BD4A0060320E /* MapViewController.m */,
+				8F8F965D25B0BBAF0060320E /* MapPrice.h */,
+				8F8F965E25B0BBAF0060320E /* MapPrice.m */,
+			);
+			path = MapPrice;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,7 +258,7 @@
 		8F10CFE1259104E300764D51 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1200;
+				LastUpgradeCheck = 1250;
 				TargetAttributes = {
 					8F10CFE8259104E300764D51 = {
 						CreatedOnToolsVersion = 12.0.1;
@@ -203,6 +273,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = 8F10CFE0259104E300764D51;
 			productRefGroup = 8F10CFEA259104E300764D51 /* Products */;
@@ -220,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FE8701825BE6B1800499ED3 /* cities.json in Resources */,
+				EC3633902672929800457C24 /* Localizable.strings in Resources */,
 				8FE8701925BE6B1800499ED3 /* airports.json in Resources */,
 				8F10CFFC259104E600764D51 /* LaunchScreen.storyboard in Resources */,
 				8FE8701A25BE6B1800499ED3 /* countries.json in Resources */,
@@ -237,13 +309,16 @@
 				8FBAC4F825947DAC0024E951 /* PlaceViewController.m in Sources */,
 				8F10CFF4259104E300764D51 /* FirstViewController.m in Sources */,
 				8F10CFEE259104E300764D51 /* AppDelegate.m in Sources */,
+				ECAAB8BF2667C8F400928478 /* MapPriceCD+CoreDataClass.swift in Sources */,
 				8F89F3DF25BDCBBE00FB89FC /* TicketsViewController.m in Sources */,
 				8F20303225911C7700CA205B /* Airport.m in Sources */,
 				8F89F43725BDE62400FB89FC /* Model.xcdatamodeld in Sources */,
 				8F89F44225BDE79100FB89FC /* CoreDataHelper.m in Sources */,
-				8FE8701225BE64D600499ED3 /* FavoriteTicket+CoreDataClass.m in Sources */,
 				8F14A492259A2F64006F3371 /* APIManager.m in Sources */,
 				8F20302E25911B8D00CA205B /* City.m in Sources */,
+				8FAD01DE25BEA5810022A675 /* FavoriteTicket+CoreDataProperties.swift in Sources */,
+				EC36338526723ABD00457C24 /* NotificationCenter.m in Sources */,
+				8FAD01DD25BEA5810022A675 /* FavoriteTicket+CoreDataClass.swift in Sources */,
 				8F10CFFF259104E600764D51 /* main.m in Sources */,
 				8F89F3DB25BDCB8C00FB89FC /* TicketTableViewCell.m in Sources */,
 				8F20303625911D6D00CA205B /* DataManager.m in Sources */,
@@ -251,8 +326,10 @@
 				8F10CFF1259104E300764D51 /* SceneDelegate.m in Sources */,
 				8F8F965B25B0B91E0060320E /* LocationService.m in Sources */,
 				8F8F965F25B0BBB00060320E /* MapPrice.m in Sources */,
+				EC97F5492668BAE50000B5F2 /* FavoritSection.m in Sources */,
 				8F5FC69325B5CE47003F6BD2 /* TabBarController.m in Sources */,
 				8F20302A25911B0000CA205B /* Country.m in Sources */,
+				ECAAB8C02667C8F400928478 /* MapPriceCD+CoreDataProperties.swift in Sources */,
 				8F8F966325B0BD4A0060320E /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,8 +341,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				8F10CFFB259104E600764D51 /* Base */,
+				EC3633932672938E00457C24 /* ru */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EC3633922672929800457C24 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC3633912672929800457C24 /* en */,
+				EC3633942672938E00457C24 /* ru */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -275,6 +362,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -334,6 +422,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -379,6 +468,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

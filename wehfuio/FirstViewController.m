@@ -29,7 +29,7 @@
         
         self.view.backgroundColor = [UIColor whiteColor];
         self.navigationController.navigationBar.prefersLargeTitles = YES;
-        self.title = @"Поиск";
+        self.title = NSLocalizedString(@"search", @"");
         
         _placeContainerView = [[UIView alloc] initWithFrame:CGRectMake(20.0, 140.0, [UIScreen mainScreen].bounds.size.width - 40.0, 170.0)];
         _placeContainerView.backgroundColor = [UIColor whiteColor];
@@ -49,7 +49,7 @@
         [self.placeContainerView addSubview:_departureButton];
         
         _arrivalButton = [UIButton buttonWithType:UIButtonTypeSystem];
-        [_arrivalButton setTitle:@"Куда" forState: UIControlStateNormal];
+    [_arrivalButton setTitle:NSLocalizedString(@"where", @"") forState: UIControlStateNormal];
         _arrivalButton.tintColor = [UIColor blackColor];
         _arrivalButton.frame = CGRectMake(10.0, CGRectGetMaxY(_departureButton.frame) + 10.0, _placeContainerView.frame.size.width - 20.0, 60.0);
         _arrivalButton.backgroundColor = [[UIColor lightGrayColor] colorWithAlphaComponent:0.1];
@@ -60,7 +60,7 @@
         [self.view addSubview:_placeContainerView];
         
         _searchButton = [UIButton buttonWithType:UIButtonTypeSystem];
-        [_searchButton setTitle:@"Найти" forState:UIControlStateNormal];
+        [_searchButton setTitle:NSLocalizedString(@"search", @"") forState:UIControlStateNormal];
         _searchButton.tintColor = [UIColor whiteColor];
         _searchButton.frame = CGRectMake(30.0, CGRectGetMaxY(_placeContainerView.frame) + 30, [UIScreen mainScreen].bounds.size.width - 60.0, 60.0);
         _searchButton.backgroundColor = [UIColor blackColor];
